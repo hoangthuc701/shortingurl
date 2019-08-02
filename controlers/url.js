@@ -37,7 +37,7 @@ exports.queryUrl = async (req,res)=>{
     }
     else
     {
-        res.redirect(process.env.HOST);
+        res.redirect('https://shortingurl.herokuapp.com');
     }
 }
 exports.indexpage = (req,res)=>{
